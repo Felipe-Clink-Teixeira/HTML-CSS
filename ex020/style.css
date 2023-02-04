@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#imagem{
+    margin-top: 20px;
+}
+#d1{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(90deg,#13678A,#012030);
+}
+#d1 > img{
+    display:none;
+}
+
+#d1:hover > img{
+    display:block;
+    color: white;
+
+    
+}
+#d1:hover{
+    background-image: radial-gradient(circle,#6F0CF2,#0DD2FC,#26E600,#FCC50D,#F52900);
+}
+
+
+
