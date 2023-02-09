@@ -44,11 +44,13 @@ main{
     box-shadow: 2px 2px 9px rgb(0, 0, 0);
     margin: auto;
     background-color: #282226;
-    
+    max-width: 900px;
+    min-width: 295px;
     border-radius: 15px;
     position: relative;
     min-height: 800px;
-    
+    padding: 9px;
+    padding-right: 20px;
 }
 main p{
     
@@ -69,14 +71,22 @@ main h2{
 }
 section{
     padding-top: 10vh;
-    padding-bottom: 23vh;
+    padding-bottom: 9vh;
     padding-left: 20px;
-    
+    width: 50%;
     border-radius: 50px;
 }
+section p{
+    max-width: 350px;
+    min-width: 200px;
+    text-shadow: 3px 3px 8px black;
+}
 .normal{
+    margin-left: 48%;
     background-color: #47403A;
     color: #C0B3A3;
+    text-align: right;
+    padding-right: 10px;
 }
 .imagem{
     background-color: #443A31;
@@ -85,7 +95,7 @@ section{
 footer{
     text-align: center;
     background-color: #262422;
-    height: 28px;
+    height: 40px;
     color: #C0B3A3;
 }
 footer a{
