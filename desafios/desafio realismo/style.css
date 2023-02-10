@@ -73,7 +73,7 @@ section{
     padding-top: 10vh;
     padding-bottom: 9vh;
     padding-left: 20px;
-    width: 50%;
+    width: 52%;
     border-radius: 50px;
 }
 section p{
@@ -91,6 +91,25 @@ section p{
 .imagem{
     background-color: #443A31;
     color: #C0B3A3;
+    background-repeat: no-repeat;
+    box-shadow: inset 6px 6px 19px  rgba(0, 0, 0, 0.749);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.imagem p{
+    background-color: #262422a5;
+}
+#terceiro{
+    background-image: url(imagens/pintura1.jfif);
+    
+    background-position: center center;
+}
+#primeiro{
+    background-image: url(imagens/background.jpg);
+    
+    background-position: center center;
+
 }
 footer{
     text-align: center;
